@@ -8,9 +8,9 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 // Base de Datos
 if (process.env.NODE_ENV === 'dev') {
-    process.env.URLDB = "mongodb+srv://Admin:Admin123@cluster0.q4tj6.mongodb.net/proyecto?retryWrites=true&w=majority";
+    process.env.URLDB = "mongodb+srv://Admin:Admin123@cluster0.8ru7t.mongodb.net/Tienda?retryWrites=true&w=majority";
 } else {
-    process.env.URLDB = "mongodb+srv://Admin:Admin123@cluster0.q4tj6.mongodb.net/proyecto?retryWrites=true&w=majority";
+    process.env.URLDB = "mongodb+srv://Admin:Admin123@cluster0.8ru7t.mongodb.net/Tienda?retryWrites=true&w=majority";
 }
 
 // Declaración de array de middleweres a usar en las APIS
